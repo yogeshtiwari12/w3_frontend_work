@@ -4,7 +4,7 @@ import Leaderboard from "./components/leader.js";
 import SocialMediaTask from "./components/socialmedia.js";
 import Footer from "./components/footer.js";
 import Dashboard from "./components/dashboard.js";
-// build fro mobile view
+// build for             mobile view
 function App() {
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -13,6 +13,7 @@ function App() {
       <SocialMediaTask />
       <Dashboard/>
       <Footer />
+      
     </div>
   );
 }
